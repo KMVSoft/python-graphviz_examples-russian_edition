@@ -9,7 +9,9 @@
 
 Запуск
 ======
- >>> python3 example.py
+.. code:: bash
+
+    $ python3 example.py
 
 Результат
 =========
