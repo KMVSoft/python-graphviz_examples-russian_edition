@@ -1,0 +1,15 @@
+graph example {
+	"Каждый" [color=red style=filled width=2]
+	"Охотник" [color=orange style=filled width=2]
+	"Желает" [color=yellow style=filled width=2]
+	"Знать" [color=green style=filled width=2]
+	"Где" [color=cyan style=filled width=2]
+	"Сидит" [color=blue style=filled width=2]
+	"Фазан" [color=purple style=filled width=2]
+	"Каждый" -- "Охотник"
+	"Охотник" -- "Желает"
+	"Желает" -- "Знать"
+	"Знать" -- "Где"
+	"Где" -- "Сидит"
+	"Сидит" -- "Фазан"
+}
