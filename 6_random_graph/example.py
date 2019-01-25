@@ -32,7 +32,7 @@ def get_rand_graph(node_count, node_degree=3):
     return adjacency_matrix
 
 def draw_multicolored_graph(adjacency_matrix):
-    graph = Graph(engine='dot', format='svg')
+    graph = Graph('example', engine='dot', format='svg')
     for node, edges in enumerate(adjacency_matrix):
         graph.node(str(node), color=get_rand_color(), style='filled')
         for neigbor, edge in enumerate(edges[:node]):

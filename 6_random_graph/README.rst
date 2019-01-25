@@ -13,13 +13,6 @@
 
 Результат
 =========
-Для 30 узлов:
+Для 30 узлов с количеством рёбер у каждого узла не более 3:
 
 .. image:: example.gv.svg
-
-example.py
-==========
-
-.. automodule:: trac_ticket
-   :members:
-   :undoc-members:
